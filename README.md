@@ -1,24 +1,16 @@
-# README
+# Todo ✅
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Rails version of the classic Todo app.
 
-Things you may want to cover:
+Although this is quite a common project throughout the community, I'm using it as special practice to focus on an architecture concept picked up from a Robert C. Martin talk.
 
-* Ruby version
+1. Use-case driven approach to application architecture.
 
-* System dependencies
+Taking advantage of this being a Rails 7 project, I'm using this as a means to get familiar with the new Rails 7 ecosystem (mostly importmaps).
 
-* Configuration
+This project uses Ruby (3.0.2).
 
-* Database creation
+To run this project locally:
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Run `bundle install`
+2. Run `bin/rails s --binding=0.0.0.0`
